@@ -9,7 +9,7 @@ pipeline
 			}
 		stage('Install') {
 			steps{
-			bat 'ant'
+			bat 'mvn install'
 			}
 			}
 		stage('Deploy') {
